@@ -1,0 +1,15 @@
+ALTER TABLE public.affected_areas    ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.api_keys          ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.assignments       ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.barangays         ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.cities            ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.crews             ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.feeders           ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.outage_reports    ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.outage_updates    ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.outages           ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.profile_settings  ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.profiles          ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.provinces         ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.system_config     ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.weather_data      ENABLE ROW LEVEL SECURITY;
